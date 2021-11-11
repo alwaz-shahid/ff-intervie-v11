@@ -14,3 +14,47 @@ a {
 * {
   box-sizing: border-box;
 }
+
+.home {
+  background-color: #f7f7f7;
+  min-width: 100vw;
+  min-height: 100vh;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.flex-r {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid #e6e6e6;
+}
+
+.data {
+  margin: auto;
+  padding: 25px;
+}
+
+hr,
+input,
+p {
+  margin: 10px;
+}
+
+.icon {
+  height:15px;
+  width: 15px;
+  /* position: absolute;
+  top: 50%;
+  left: 0px; */
+  
+}
+
+.editable {
+  display: inline;
+  position: relative;
+}
